@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <input id="n1" type="number">
+    <input id="n2" type="number">
+    <button>somar</button>
+    O Resultado é <span></span>
+    <script>
+        n1 = document.querySelector('#n1')
+        n2 = document.querySelector('#n2')
+        resultado = document.querySelector('span')
+
+        function somar() {
+            resultado.innerHTML = n1.value + n2.value
+        }
+    </script>
+</body>
+</html>
